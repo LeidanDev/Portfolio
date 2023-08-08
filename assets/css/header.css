@@ -59,14 +59,12 @@
     .botao__link{
         width: 50px;
         height: 50px;
-        font-size: 5px;
-        margin: 2px;
+        font-size: 3px;
+        margin: 3px;
         word-wrap: break-word;
     }
 
-    .botao__link:hover{
-        font-size: 5px;
-    }
+    
     .titulo__cabecalho{
         display: none;
     }
@@ -74,7 +72,7 @@
     .cabecalho{
       display: flex;
       justify-content: center;
-    
+
     }
 
     .botao__link{
@@ -90,20 +88,18 @@
 
     .cabecalho{
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .botao__link{
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .titulo__cabecalho{
         display: none;
     }
 
-    .botao__link:hover{
-        font-size: 18px;
-    }
 
     #menu{
         position: fixed;

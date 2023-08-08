@@ -47,16 +47,20 @@
 }
 
 @media screen and (max-width: 720px) {
-    section{
-        overflow-y: hidden
-    }
-
+   
     .inicio{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-content: center;
-        
+        overflow-x: auto;
+        padding-top: 10em;
+    }
+
+    .texto__apresentacao {
+        margin-right: 5em;
+        font-size: 32px;
+        color: var(--branco-principal);
     }
 
     .clicar__imagem{
@@ -80,8 +84,10 @@
 @media screen and (max-width:1024px) {
     .inicio {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        padding-top: 10em;
     }
 
     .imagem__logo {
